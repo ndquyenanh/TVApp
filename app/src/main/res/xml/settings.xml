@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Mode And Data">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="user_mode"
+            android:summary="Set mode for app"
+            android:title="User mode" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="start_boot"
+            android:summary="Launch app when device booted"
+            android:title="Start up" />
+
+        <Preference
+            android:key="get_full_log"
+            android:summary="Get all log in device"
+            android:title="Get full log" />
+
+        <Preference
+            android:key="clear_db"
+            android:summary="Delete Database schedule"
+            android:title="Clean data" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="FTP account">
+        <EditTextPreference
+            android:key="ftp_name"
+            android:summary="For send log to server"
+            android:title="FTP Name" />
+        <EditTextPreference
+            android:key="ftp_password"
+            android:summary="For send log to server"
+            android:title="FTP password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Help">
+        <Preference
+            android:key="about_us"
+            android:summary="Contact with us"
+            android:title="About us" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

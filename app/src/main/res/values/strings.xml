@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TV Content Sync</string>
+    <string name="application_name">Samsung TVSync</string>
+
+    <string name="setting">Settings</string>
+    <string name="connect">Connect</string>
+    <string name="connect_network">Please connected to wifi or Ethernet now to continue using app</string>
+    <string name="disconnect">Refresh connect</string>
+    <string name="ip_sv_addr">Please enter IP Server</string>
+    <string name="enable_log">Show log</string>
+    <string name="clear_log">Clear log</string>
+    <string name="conn_nw">Check Network</string>
+    <string name="clear_db">Clear db</string>
+    <string name="change_mode">Change mode</string>
+
+    <string name="menu_req">Connect</string>
+    <string name="menu_dis">Refresh connect</string>
+    <string name="menu_clear_data">Clear DB</string>
+    <string name="menu_clear_log">Clear log</string>
+    <string name="menu_get_log">Save log</string>
+    <string name="menu_exit">Close app</string>
+
+    <string name="ip_sv_null">Please enter IP of server valid</string>
+    <string name="ip_sv_ok">IP Server saved!</string>
+    <string name="download_failed">Download failed file: %s</string>
+    <string name="download_success">Download Success file: %s</string>
+    <string name="nw_error">Network unavailable!!!</string>
+    <string name="include_cmd">Included Command from server: %s</string>
+    <string name="dl_start">Starting download file %s</string>
+    <string name="dl_end">Finished download file %s</string>
+</resources>

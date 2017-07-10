@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/mn_connect"
+        android:icon="@android:drawable/ic_menu_send"
+        android:orderInCategory="100"
+        android:title="@string/connect"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mn_get_log"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/menu_get_log"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/mn_clear_log"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="100"
+        android:title="@string/clear_log"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mn_conn_nw"
+        android:orderInCategory="100"
+        android:title="@string/conn_nw"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_enable_log"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="100"
+        android:title="@string/enable_log"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_chang_mode"
+        android:orderInCategory="100"
+        android:title="@string/setting"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_ip_sv_addr"
+        android:orderInCategory="100"
+        android:title="@string/ip_sv_addr"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_dis_connect"
+        android:orderInCategory="100"
+        android:title="@string/disconnect"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mn_close"
+        android:orderInCategory="100"
+        android:title="@string/menu_exit"
+        app:showAsAction="never" />
+
+</menu>
